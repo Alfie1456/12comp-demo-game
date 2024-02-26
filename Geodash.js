@@ -20,7 +20,7 @@ yellowBox = new Sprite(100, 100, 30, 30, 'd');
   
   document.addEventListener("keydown",
   function(event) {
-    console.log ("key pressed" +yellowBox.y);
+    console.log = ("key pressed" + yellowBox.y);
     if(yellowBox.y > 184){
         console.log = ("key pressed!");
     yellowBox.vel.y = -5;
